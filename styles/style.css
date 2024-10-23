@@ -161,7 +161,7 @@ nav{
 
 /* Community section */
 
-.community h1{
+.community h1, .trending h1{
     text-align: center;
     color: #212121;
     font-family: "TheMixBlack-Caps", Sans-serif;
@@ -217,7 +217,7 @@ nav{
     line-height: 50px;
 } 
 
-.card-2 button{
+.card-2 button, .trending button{
     background-color: #0078BE;
     color: white;
     padding: 10px 20px;
@@ -282,8 +282,35 @@ nav{
     font-weight: bold;
     color: #333333;
 }
-
-
 .numbers{
     font-size: 30px;
+}
+
+/* Trending section*/
+
+.trending{
+    background-image: url(/assets/images/trending-bg.png);
+}
+
+.trending-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trending-card{
+    width: 400px;
+    text-align: center;
+}
+
+.trending-card img{
+    width: 300px;
+}
+.trending button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: bold;
 }
