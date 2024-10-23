@@ -12,6 +12,10 @@ li {
     list-style: none;
 }
 
+button{
+    cursor: pointer;
+}
+
 header{
     background-image: url(/assets/images/BDD-bg.jpg);
     height: 100vh;
@@ -153,4 +157,76 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(/assets/images/parallax.png);
+}
+
+/* Community section */
+
+.community h1{
+    text-align: center;
+    color: #212121;
+    font-family: "TheMixBlack-Caps", Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.community img{
+    width: 500px;
+}
+
+.community-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+
+}
+
+.card-2{
+    height: 500px;
+    width: 200px;
+    padding: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    border-radius: 5px;
+
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+.card-2 p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-2 li::before{ 
+  
+    content: "\00BB"; 
+    line-height: 50px;
+} 
+
+.card-2 button{
+    background-color: #0078BE;
+    color: white;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.card-2 li{
+    color: #646464;
+
 }
