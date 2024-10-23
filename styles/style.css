@@ -290,6 +290,7 @@ nav{
 
 .trending{
     background-image: url(/assets/images/trending-bg.png);
+    background-color: #f5f5f5;
 }
 
 .trending-cards{
@@ -310,7 +311,37 @@ nav{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     font-size: bold;
+}
+
+/* Words section */
+.words{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+
+/* Footer */
+footer{
+    background-color: #212121;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 87vh;
+}
+.footer-1, .footer-2, .footer-3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #b6b6b6;
+    line-height: 30px;
+}
+
+.footer-3 img{
+    width: 30px;
 }
